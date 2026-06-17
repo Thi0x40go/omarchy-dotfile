@@ -5,7 +5,7 @@
   "position": "top",
   "spacing": 0,
   "height": 26,
-  "modules-left": ["custom/omarchy", "hyprland/workspaces", "custom/hyprmodoro", "custom/spotify"],
+  "modules-left": ["custom/omarchy", "hyprland/workspaces", "custom/spotify"],
   "modules-center": ["custom/clock"],
   "modules-right": [
     "custom/weather",
@@ -96,15 +96,6 @@
     "return-type": "json",
     "tooltip": true,
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
-  },
-  "custom/hyprmodoro": {
-    "format": "{}",
-    "interval": 1,
-    "exec": "$HOME/.config/waybar/hyprmodoro.sh",
-    "return-type": "json",
-    "on-click": "$HOME/.config/waybar/hyprmodoro-toggle.sh",
-    "on-click-right": "hyprctl dispatch hyprmodoro:skip",
-    "tooltip": true
   },
   "custom/weather": {
     "exec": "$OMARCHY_PATH/default/waybar/weather.sh",
