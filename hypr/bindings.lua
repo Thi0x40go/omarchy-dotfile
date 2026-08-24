@@ -27,3 +27,6 @@
 -- o.bind("SUPER + SHIFT + S", nil, "omarchy-capture-screenshot")
 -- o.bind("SUPER + H", nil, "voxtype record toggle")
 -- o.bind("SUPER + PERIOD", nil, "omarchy-shell shell toggle omarchy.emojis")
+
+-- Resume AI Session (omarchy-resume): abre o picker de sessões de IA
+o.bind("SUPER + ALT + A", "Resume AI Session", "omarchy-shell shell toggle anagrius.resume")
